@@ -13,19 +13,19 @@
             
         } 
         .left{
-            width: 400px;
+            width: 300px;
             height: 400px;
             float: left;
             margin: 0px 80px;
         }
         .center{
-            width: 400px;
+            width: 300px;
             height: 400px;
             /* float: inline-start; */
             margin: 0px 80px;
         }
         .right{
-            width: 400px;
+            width: 300px;
             height: 400px;
             float: right;
             margin: 0px 80px;
