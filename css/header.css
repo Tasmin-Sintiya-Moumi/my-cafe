@@ -33,3 +33,21 @@
             margin: 0px 50px;
             box-shadow: 10px 20px 10px grey;
         }
+        .centerr{
+            background-color: aqua;
+            margin: 0px 180px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .leftt{
+            background-color: aqua;
+            margin: 0px 135px;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .rightt{
+            background-color: aqua;
+            margin: 0px 135px;
+            font-weight: bolder;
+            font-size: larger;
+        }
