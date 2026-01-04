@@ -12,42 +12,27 @@
             background-size: cover;
             
         } 
-        .left{
-            width: 300px;
+        .combine{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+            /* column-gap: 100px; */
+            /* row-gap: 20px; */
+
+        }
+        .img{
+            text-align: center;
+        }
+        .img img{
+            width: 350px;
             height: 400px;
-            float: left;
-            margin: 0px 50px;
-            box-shadow: 10px 20px 10px grey;
+            /* float: left; */
+            /* margin: 0px 50px;  */
+            box-shadow: 10px 10px 10px grey;
         }
-        .center{
-            width: 300px;
-            height: 400px;
-            /* float: inline-start; */
-            margin: 0px 70px;
-            box-shadow: 10px 20px 10px grey;
-        }
-        .right{
-            width: 300px;
-            height: 400px;
-            float: right;
-            margin: 0px 50px;
-            box-shadow: 10px 20px 10px grey;
-        }
-        .centerr{
-            background-color: aqua;
-            margin: 0px 180px;
+        .img p{
+            margin: 20px 0px;
             font-weight: bolder;
-            font-size: larger;
+            font-style: italic;
         }
-        .leftt{
-            background-color: aqua;
-            margin: 0px 135px;
-            font-weight: bolder;
-            font-size: larger;
-        }
-        .rightt{
-            background-color: aqua;
-            margin: 0px 135px;
-            font-weight: bolder;
-            font-size: larger;
-        }
+        
